@@ -1,7 +1,7 @@
-import ExampleComponent from "../component/Example";
+import HelloWorld from "../component/HelloWorld";
 
 const Example = () => {
-  return <ExampleComponent />;
+  return <HelloWorld />;
 };
 
 export default Example;
