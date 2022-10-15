@@ -7,7 +7,8 @@
     "start": "vite --host",
     "dev": "vite --host",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "eslint --fix"
   },
   "dependencies": {
     "@mantine/hooks": "^5.5.5",
@@ -30,8 +31,10 @@
     "vite-plugin-eslint": "^1.8.1"
   },
   "lint-staged": {
-    "**/*": "prettier --write  --check --ignore-unknown 'src/**/*.{js,jsx}'",
-    "*.{js,jsx}": "eslint --fix"
+    "src/*.{js,jsx}": [
+      "eslint --fix",
+      "prettier --write --ignore-unknown"
+    ]
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
