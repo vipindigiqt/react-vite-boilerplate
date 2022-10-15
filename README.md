@@ -6,6 +6,7 @@ Available Packages and Tools:
 
 - Vite - (As a bundler)
 - React 18
+- [MUI](https://mui.com/) React
 - React Router DOM - 6.x
 - [Mantine Hooks](https://www.npmjs.com/package/@mantine/hooks)
 - axios
