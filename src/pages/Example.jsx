@@ -1,12 +1,7 @@
+import ExampleComponent from "../component/Example";
+
 const Example = () => {
-  return (
-    <>
-      <h1>Hello World!</h1>
-      <p>
-        Edit <code>`pages/Example.jsx`</code> to see the changes.
-      </p>
-    </>
-  );
+  return <ExampleComponent />;
 };
 
 export default Example;
