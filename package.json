@@ -11,7 +11,10 @@
     "lint": "eslint --fix"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
     "@mantine/hooks": "^5.5.5",
+    "@mui/material": "^5.10.9",
     "axios": "^1.1.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
