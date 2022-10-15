@@ -32,10 +32,8 @@
     "vite-plugin-eslint": "^1.8.1"
   },
   "lint-staged": {
-    "src/**/*.{js,jsx}": [
-      "eslint --fix",
-      "prettier --write --ignore-unknown"
-    ]
+    "src/**/*.{js,jsx}": "eslint --fix",
+    "src/**/*.{js,jsx,css,scss,sass}": "prettier --write --ignore-unknown"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
