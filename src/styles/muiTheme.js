@@ -6,7 +6,7 @@ const theme = createTheme({
   },
 
   components: {
-    // No auto-completions/suggestions here  ☹️
+    // Custom components
     Flex: {
       styleOverrides: {
         root: {
